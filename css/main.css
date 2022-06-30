@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: darkslateblue;
+  background-color: whitesmoke;
   font-size: 1.3rem;
 }
 
@@ -124,7 +124,7 @@ body {
 /* Transitions */
 .v-enter-active,
 .v-leave-active {
-  transition: opacity 0.5s ease;
+  transition: opacity 0.9s ease;
 }
 
 .v-enter-from,
@@ -136,7 +136,7 @@ body {
 /* apply transition to moving elements */
 .list-enter-active,
 .list-leave-active {
-  transition: all 0.5s ease;
+  transition: all 0.9s ease;
 }
 
 .list-enter-from,
